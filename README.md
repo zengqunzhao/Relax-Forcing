@@ -2,9 +2,9 @@
 
 # Relax Forcing: Relaxed KV-Memory for Consistent Long Video Generation
 
-**Zengqun Zhao<sup>1</sup> · Yanzuo Lu<sup>2</sup> · Ziquan Liu<sup>1</sup> · Jifei Song<sup>3</sup> · Jiankang Deng<sup>2</sup> · Ioannis Patras<sup>1</sup>**
+**Zengqun Zhao<sup>1</sup> · Yanzuo Lu<sup>2</sup> · Ziquan Liu<sup>1</sup> · Jifei Song · Jiankang Deng<sup>2</sup> · Ioannis Patras<sup>1</sup>**
 
-<sup>1</sup>Queen Mary University of London · <sup>2</sup>Imperial College London · <sup>3</sup>Huawei R&D UK
+<sup>1</sup>Queen Mary University of London · <sup>2</sup>Imperial College London
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/abs/2603.21366)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://zengqunzhao.github.io/Relax-Forcing)
