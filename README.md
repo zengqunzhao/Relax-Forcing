@@ -6,7 +6,7 @@
 
 <sup>1</sup>Queen Mary University of London · <sup>2</sup>Imperial College London · <sup>3</sup>Huawei R&D UK
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/abs/TODO)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/abs/2603.21366)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://zengqunzhao.github.io/Relax-Forcing)
 
 </div>
@@ -52,11 +52,14 @@ This design mitigates error accumulation during extrapolation while preserving m
 If you find this work useful for your research, please consider citing our paper and giving this repo a ⭐️.
 
 ```bibtex
-@article{zhao2026relaxforcing,
-  title={Relax Forcing: Relaxed KV-Memory for Consistent Long Video Generation},
-  author={Zhao, Zengqun and Lu, Yanzuo and Liu, Ziquan and Song, Jifei and Deng, Jiankang and Patras, Ioannis},
-  journal={arXiv preprint},
-  year={2026}
+@misc{zhao2026relaxforcing,
+      title={Relax Forcing: Relaxed KV-Memory for Consistent Long Video Generation}, 
+      author={Zengqun Zhao and Yanzuo Lu and Ziquan Liu and Jifei Song and Jiankang Deng and Ioannis Patras},
+      year={2026},
+      eprint={2603.21366},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.21366}, 
 }
 ```
 
