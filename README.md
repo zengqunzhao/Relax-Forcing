@@ -15,6 +15,8 @@ Queen Mary University of London · Imperial College London
 
 **Accepted at BMVC 2026**
 
+<img src="assets/fig_videos_comparison.png" alt="Long-horizon qualitative comparison" width="100%">
+
 </div>
 
 Relax Forcing is a training-free memory policy for long-horizon autoregressive
