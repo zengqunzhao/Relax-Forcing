@@ -19,6 +19,8 @@ Queen Mary University of London · Imperial College London
 
 </div>
 
+## Overview
+
 Relax Forcing is a training-free memory policy for long-horizon autoregressive
 video diffusion. It replaces dense chronological KV memory with structured
 global anchors, selected intermediate history, and recent context. This design
