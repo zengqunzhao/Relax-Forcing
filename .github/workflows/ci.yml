@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  cpu-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - run: pip install PyYAML
+      - run: python -m pip install --no-deps .
+      - run: python -m unittest discover -s tests -v
+      - run: python -m compileall -q relax_forcing pipeline scripts utils wan
+      - run: relax-forcing --list-methods
+      - run: relax-forcing --method relax_forcing --dry-run

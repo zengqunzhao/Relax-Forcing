@@ -1,0 +1,18 @@
+_base_: ../base.yaml
+method: rolling_forcing
+pipeline: rolling
+checkpoint_key: generator_ema
+denoising_step_list: [1000, 800, 600, 400, 200]
+model_kwargs:
+  model_impl: rolling_forcing
+  timestep_shift: 5.0
+  local_attn_size: -1
+  sink_size: 0
+memory:
+  sink_frames: 0
+  hist_frames: 0
+  tail_frames: 0
+  hist_position_idx: -1
+  num_hist_candidates: 0
+  lambda_redundancy: 0.0
+  contiguous_rope: false

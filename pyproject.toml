@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "relax-forcing"
+version = "0.1.0"
+description = "Structured temporal KV memory for long-horizon autoregressive video diffusion"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0 with third-party exceptions"}
+authors = [
+  {name = "Zengqun Zhao"},
+  {name = "Yanzuo Lu"},
+  {name = "Ziquan Liu"},
+  {name = "Jifei Song"},
+  {name = "Jiankang Deng"},
+  {name = "Ioannis Patras"},
+]
+keywords = [
+  "autoregressive video diffusion",
+  "long video generation",
+  "KV cache",
+  "temporal memory",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Operating System :: POSIX :: Linux",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://zengqunzhao.github.io/Relax-Forcing"
+Paper = "https://arxiv.org/abs/2603.21366"
+Conference = "https://bmvc2026.bmva.org/"
+Repository = "https://github.com/zengqunzhao/Relax-Forcing"
+Issues = "https://github.com/zengqunzhao/Relax-Forcing/issues"
+
+[project.scripts]
+relax-forcing = "relax_forcing.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["relax_forcing*", "pipeline*", "utils*", "wan*", "demo_utils*"]
+
+[tool.setuptools.data-files]
+"share/relax-forcing/configs" = ["configs/base.yaml"]
+"share/relax-forcing/configs/methods" = [
+  "configs/methods/attention_sink.yaml",
+  "configs/methods/causvid.yaml",
+  "configs/methods/deep_forcing.yaml",
+  "configs/methods/relax_forcing.yaml",
+  "configs/methods/rolling_forcing.yaml",
+  "configs/methods/self_forcing.yaml",
+]

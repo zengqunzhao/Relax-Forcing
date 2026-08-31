@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the BMVC 2026 Relax Forcing paper."
+title: "Relax Forcing: Relaxed KV-Memory for Consistent Long Video Generation"
+type: software
+version: 0.1.0
+date-released: 2026-08-09
+url: "https://github.com/zengqunzhao/Relax-Forcing"
+repository-code: "https://github.com/zengqunzhao/Relax-Forcing"
+authors:
+  - family-names: Zhao
+    given-names: Zengqun
+  - family-names: Lu
+    given-names: Yanzuo
+  - family-names: Liu
+    given-names: Ziquan
+  - family-names: Song
+    given-names: Jifei
+  - family-names: Deng
+    given-names: Jiankang
+  - family-names: Patras
+    given-names: Ioannis
+preferred-citation:
+  type: conference-paper
+  title: "Relax Forcing: Relaxed KV-Memory for Consistent Long Video Generation"
+  authors:
+    - family-names: Zhao
+      given-names: Zengqun
+    - family-names: Lu
+      given-names: Yanzuo
+    - family-names: Liu
+      given-names: Ziquan
+    - family-names: Song
+      given-names: Jifei
+    - family-names: Deng
+      given-names: Jiankang
+    - family-names: Patras
+      given-names: Ioannis
+  collection-title: "Proceedings of the British Machine Vision Conference (BMVC)"
+  collection-type: proceedings
+  conference:
+    name: "The 37th British Machine Vision Conference (BMVC 2026)"
+    website: "https://bmvc2026.bmva.org/"
+  year: 2026
+  url: "https://arxiv.org/abs/2603.21366"

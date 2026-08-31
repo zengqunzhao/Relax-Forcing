@@ -1,0 +1,16 @@
+_base_: ../base.yaml
+method: relax_forcing
+pipeline: causal
+checkpoint_key: generator_ema
+denoising_step_list: [1000, 750, 500, 250]
+model_kwargs:
+  timestep_shift: 5.0
+  local_attn_size: 120
+memory:
+  sink_frames: 2
+  hist_frames: 1
+  tail_frames: 1
+  hist_position_idx: -2
+  num_hist_candidates: 4
+  lambda_redundancy: 2.0
+  contiguous_rope: false

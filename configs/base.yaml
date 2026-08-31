@@ -1,0 +1,15 @@
+independent_first_frame: false
+warp_denoising_step: true
+num_train_timestep: 1000
+timestep_shift: 5.0
+context_noise: 0
+num_frame_per_block: 3
+image_or_video_shape:
+  - 1
+  - 21
+  - 16
+  - 60
+  - 104
+model_kwargs:
+  model_name: Wan2.1-T2V-1.3B
+  timestep_shift: 5.0

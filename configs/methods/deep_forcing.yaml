@@ -1,0 +1,22 @@
+_base_: ../base.yaml
+method: deep_forcing
+pipeline: causal
+checkpoint_key: generator_ema
+denoising_step_list: [1000, 750, 500, 250]
+model_kwargs:
+  model_impl: deep_forcing
+  timestep_shift: 5.0
+  local_attn_size: 21
+  sink_size: 10
+  pc_capacity_frames: 16
+  pc_window_frames: 4
+  pc_topc_max_reuse: 7
+  deep_sink_only: false
+memory:
+  sink_frames: 0
+  hist_frames: 0
+  tail_frames: 0
+  hist_position_idx: -1
+  num_hist_candidates: 0
+  lambda_redundancy: 0.0
+  contiguous_rope: false

@@ -1,0 +1,6 @@
+Relax Forcing
+Copyright 2026 Relax Forcing authors
+
+This repository builds on Self-Forcing and Wan 2.1. Substantial portions of
+the causal video diffusion implementation originate from those projects.
+See THIRD_PARTY_NOTICES.md for upstream projects, licenses, and citations.

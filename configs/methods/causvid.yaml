@@ -1,0 +1,18 @@
+_base_: ../base.yaml
+method: causvid
+pipeline: causal
+checkpoint_key: generator
+denoising_step_list: [1000, 757, 522]
+warp_denoising_step: false
+timestep_shift: 8.0
+model_kwargs:
+  timestep_shift: 8.0
+  local_attn_size: 21
+memory:
+  sink_frames: 0
+  hist_frames: 0
+  tail_frames: 18
+  hist_position_idx: -1
+  num_hist_candidates: 0
+  lambda_redundancy: 0.0
+  contiguous_rope: false
