@@ -6,8 +6,6 @@
 
 Zengqun Zhao · Yanzuo Lu · Ziquan Liu · Jifei Song · Jiankang Deng · Ioannis Patras
 
-Queen Mary University of London · Imperial College London
-
 [![BMVC 2026](https://img.shields.io/badge/BMVC-2026-1f6feb)](https://bmvc2026.bmva.org/)
 [![arXiv](https://img.shields.io/badge/arXiv-2603.21366-b31b1b.svg)](https://arxiv.org/abs/2603.21366)
 [![Project page](https://img.shields.io/badge/Project-Page-2ea44f)](https://zengqunzhao.github.io/Relax-Forcing)
